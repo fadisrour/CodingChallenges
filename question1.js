@@ -16,7 +16,6 @@ function printLikes(users) {
 
     if (numberOfPeople == 2) {
         message += users[0] + " and " + users[1];
-        // window.alert("nb: "+numberOfPeople);
         console.log(message);
         return
     }
